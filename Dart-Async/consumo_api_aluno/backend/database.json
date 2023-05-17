@@ -1,0 +1,119 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Academia do flutter"
+        },
+        {
+            "id": 1,
+            "title": "Jornada Dart"
+        },
+        {
+            "id": 2,
+            "title": "Jornada GetX"
+        }
+    ],
+    "alunos": [
+        {
+            "id": 0,
+            "nome": "Yuri Lima",
+            "idade": 22,
+            "nomeCursos": [
+                "Academia do Flutter",
+                "Jornada GetX",
+                "Jornada Backend"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do Flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Jornada GetX",
+                    "isAluno": true
+                },
+                {
+                    "id": 3,
+                    "nome": "Jornada Backend",
+                    "isAluno": true
+                },
+                {
+                    "id": 4,
+                    "nome": "Jornada Clean Code",
+                    "isAluno": false
+                }
+            ],
+            "endereco": {
+                "rua": "Rua X",
+                "numero": 200,
+                "CEP": "0923434332",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Caxias"
+                },
+                "telefone": {
+                    "ddd": 99,
+                    "telefone": "990010101"
+                }
+            }
+        },
+        {
+            "id": 1,
+            "nome": "Santos de Lima",
+            "nomeCursos": [
+                "Academia do Flutter"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do Flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Jornada GetX",
+                    "isAluno": false
+                },
+                {
+                    "id": 3,
+                    "nome": "Jornada Backend",
+                    "isAluno": false
+                },
+                {
+                    "id": 4,
+                    "nome": "Jornada Clean Code",
+                    "isAluno": false
+                }
+            ],
+            "endereco": {
+                "rua": "Rua z",
+                "numero": 200,
+                "CEP": "0923434336",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Caxias"
+                },
+                "telefone": {
+                    "ddd": 99,
+                    "telefone": "990010101"
+                }
+            }
+        }
+    ]
+}
