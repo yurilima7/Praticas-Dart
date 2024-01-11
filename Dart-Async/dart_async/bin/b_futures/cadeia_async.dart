@@ -3,6 +3,7 @@ void main(List<String> args) {
     func2(value).then((value) => print(value));
   });
 
+  // chamada em cadeia
   func1()
     .then((value) => func2(value))
     .then((value) => print('Cadeia 2 $value'));

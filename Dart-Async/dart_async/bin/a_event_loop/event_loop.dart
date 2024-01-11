@@ -1,5 +1,6 @@
 import 'dart:async';
 
+// Main executa primeiro por ter prioridade maior que as microtasks
 void main(List<String> args) {
   print('Inicio main');
   Timer.run(() {
