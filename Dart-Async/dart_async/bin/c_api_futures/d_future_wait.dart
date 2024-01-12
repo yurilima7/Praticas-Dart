@@ -21,6 +21,11 @@ void main(List<String> args) {
     () => Future.error('Erro'),
   );
 
-  Future.wait([f1,f2,f3,f4,f5], eagerError: true, cleanUp: (successValue) => print('completou $successValue'),).then((value) => print(value)).catchError((onError) => print(onError));
+  Future.wait(
+    [f1,f2,f3,f4,f5], 
+    eagerError: true, 
+    cleanUp: (successValue) => print('completou $successValue'),)
+    .then((value) => print(value)).catchError((onError) => print(onError),
+  );
   print('End');
 }

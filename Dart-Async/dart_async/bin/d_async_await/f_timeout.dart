@@ -12,6 +12,7 @@ void main(List<String> args) {
   // });
   try {
     final aguardando = inserindoLentamente().timeout(Duration(seconds: 1));
+    print(aguardando);
   } on TimeoutException catch (e) {
     print('Finalizou com timeout $e');
   }
